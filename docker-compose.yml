@@ -1,0 +1,37 @@
+version: '3.3'
+services:
+    jobs_manager:
+        container_name: jobs_manager
+        build: ./jobs_manager
+        image: jobs_manager:1.0
+        environment:
+            - ConnectionStrings:Hangfire=Server=db.jobs_manager;Port=5432;Database=hangfire;User Id=postgres
+            - ASPNETCORE_URLS=http://+:80
+        expose:
+            - "80"
+        ports:
+            - "5010:80"
+        depends_on:
+            - db.jobs_manager
+        command: ["./wait-for-it.sh", "db.jobs_manager:5432", "--", "dotnet", "jobs_manager.dll"]
+    backup_executor:
+        container_name: backup_executor
+        build: ./backup_executor
+        image: backup_executor:1.0
+        environment:
+            - FLASK_APP=app
+            - FLASK_ENV=production
+            - SERVER_PORT=80
+        expose:
+            - "80"
+        volumes:
+            - "backup_storage:/backup_storage"
+        ports:
+            - "5011:80"
+    db.jobs_manager:
+        container_name: db.jobs_manager
+        image: postgres:11.1-alpine
+        environment:
+            - POSTGRES_DB=hangfire
+volumes:
+    backup_storage:

@@ -1,0 +1,376 @@
+2018-11-17 10:28:13.7215 | [EVENT_ID]  | DEBUG | [LOGGER] jobs_manager.Program | [DATA] init main 
+2018-11-17 10:28:14.0110 | [EVENT_ID]  | INFO | [LOGGER] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | [DATA] User profile is available. Using 'C:\Users\hoanglt\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-11-17 10:28:14.4695 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.PostgreSql.PostgreSqlStorage | [DATA] Start installing Hangfire SQL objects... 
+2018-11-17 10:28:14.5520 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.PostgreSql.PostgreSqlStorage | [DATA] Hangfire SQL objects installed. 
+2018-11-17 10:28:14.5685 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Starting Hangfire Server 
+2018-11-17 10:28:14.5685 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using job storage: 'PostgreSQL Server: Host: 192.168.99.100, DB: hangfire, Schema: hangfire' 
+2018-11-17 10:28:14.5685 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using the following options for SQL Server job storage: 
+2018-11-17 10:28:14.5685 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Queue poll interval: 00:00:15. 
+2018-11-17 10:28:14.5685 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Invisibility timeout: 00:30:00. 
+2018-11-17 10:28:14.5685 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using the following options for Hangfire Server: 
+2018-11-17 10:28:14.5685 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Worker count: 20 
+2018-11-17 10:28:14.5685 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Listening queues: 'default' 
+2018-11-17 10:28:14.5745 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Shutdown timeout: 00:00:15 
+2018-11-17 10:28:14.5745 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Schedule polling interval: 00:00:15 
+2018-11-17 10:28:14.5745 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.BackgroundProcessingServer | [DATA] Background process 'BackgroundProcessingServer' started. 
+2018-11-17 10:28:14.6280 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerHeartbeat | [DATA] Background process 'ServerHeartbeat' started. 
+2018-11-17 10:28:14.6280 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b735c749' started. 
+2018-11-17 10:28:14.6280 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerWatchdog | [DATA] Background process 'ServerWatchdog' started. 
+2018-11-17 10:28:14.6280 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #96ec530c' started. 
+2018-11-17 10:28:14.6280 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Background process 'SQL Records Expiration Manager' started. 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'counter'... 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'job'... 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'list'... 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e04c9428' started. 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'set'... 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4b46bdbb' started. 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b443269f' started. 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #a8be4059' started. 
+2018-11-17 10:28:14.6370 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e8f4bd29' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #c674331b' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #dde2e19b' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #913f1e51' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #fa75a869' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #2b38cbb0' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #07de2cd8' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4f3d5871' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #74fb412f' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #03233560' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #366698ab' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #07102362' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e8a4d3e0' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #78c1d22b' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.DelayedJobScheduler | [DATA] Background process 'DelayedJobScheduler' started. 
+2018-11-17 10:28:14.6560 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' started. 
+2018-11-17 10:28:14.7015 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'hash'... 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Hangfire Server is stopping... 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Background process 'SQL Records Expiration Manager' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.DelayedJobScheduler | [DATA] Background process 'DelayedJobScheduler' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #dde2e19b' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #2b38cbb0' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #913f1e51' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #74fb412f' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e04c9428' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #96ec530c' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #2b38cbb0' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b443269f' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #07de2cd8' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #74fb412f' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #fa75a869' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #366698ab' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #78c1d22b' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #03233560' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4f3d5871' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #fa75a869' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #07102362' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #a8be4059' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #dde2e19b' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #78c1d22b' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerWatchdog | [DATA] Background process 'ServerWatchdog' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e8a4d3e0' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4f3d5871' stopped. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e8a4d3e0' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b735c749' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #913f1e51' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4b46bdbb' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4b46bdbb' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e8f4bd29' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e04c9428' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #96ec530c' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b443269f' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #07de2cd8' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #366698ab' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #03233560' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #a8be4059' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerHeartbeat | [DATA] Background process 'ServerHeartbeat' stopped. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #07102362' stopped. 
+2018-11-17 10:28:18.4005 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #c674331b' was stopped due to a shutdown request. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b735c749' stopped. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' stopped. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e8f4bd29' stopped. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #c674331b' stopped. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.BackgroundProcessingServer | [DATA] Background process 'BackgroundProcessingServer' stopped. 
+2018-11-17 10:28:18.4115 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Hangfire Server stopped. 
+2018-11-17 10:35:21.3165 | [EVENT_ID]  | DEBUG | [LOGGER] jobs_manager.Program | [DATA] init main 
+2018-11-17 10:35:21.9890 | [EVENT_ID]  | INFO | [LOGGER] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | [DATA] User profile is available. Using 'C:\Users\hoanglt\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-11-17 10:35:23.2765 | [EVENT_ID] 6 | FATAL | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Application startup exception System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it
+   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 703
+   at Npgsql.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 555
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 414
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\ConnectorPool.cs:line 246
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:line 304
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnection.Open() in C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:line 153
+   at Hangfire.PostgreSql.PostgreSqlStorage.CreateAndOpenConnection()
+   at Hangfire.PostgreSql.PostgreSqlStorage..ctor(String nameOrConnectionString, PostgreSqlStorageOptions options)
+   at Hangfire.PostgreSql.PostgreSqlBootstrapperConfigurationExtensions.UsePostgreSqlStorage(IGlobalConfiguration configuration, String nameOrConnectionString)
+   at jobs_manager.Startup.<ConfigureServices>b__4_0(IGlobalConfiguration options) in D:\hoangle\rebuild_projects\jobs_manager\Startup.cs:line 32
+   at Hangfire.HangfireServiceCollectionExtensions.<>c__DisplayClass0_0.<AddHangfire>b__9(IServiceProvider serviceProvider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitSingleton(SingletonCallSite singletonCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Hangfire.HangfireApplicationBuilderExtensions.ThrowIfNotConfigured(IApplicationBuilder app)
+   at Hangfire.HangfireApplicationBuilderExtensions.UseHangfireServer(IApplicationBuilder app, BackgroundJobServerOptions options, IEnumerable`1 additionalProcesses, JobStorage storage)
+   at jobs_manager.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env) in D:\hoangle\rebuild_projects\jobs_manager\Startup.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-11-17 10:35:23.2950 | [EVENT_ID]  | ERROR | [LOGGER] jobs_manager.Program | [DATA] Stopped program because of exception System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it
+   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 703
+   at Npgsql.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 555
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 414
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\ConnectorPool.cs:line 246
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:line 304
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnection.Open() in C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:line 153
+   at Hangfire.PostgreSql.PostgreSqlStorage.CreateAndOpenConnection()
+   at Hangfire.PostgreSql.PostgreSqlStorage..ctor(String nameOrConnectionString, PostgreSqlStorageOptions options)
+   at Hangfire.PostgreSql.PostgreSqlBootstrapperConfigurationExtensions.UsePostgreSqlStorage(IGlobalConfiguration configuration, String nameOrConnectionString)
+   at jobs_manager.Startup.<ConfigureServices>b__4_0(IGlobalConfiguration options) in D:\hoangle\rebuild_projects\jobs_manager\Startup.cs:line 32
+   at Hangfire.HangfireServiceCollectionExtensions.<>c__DisplayClass0_0.<AddHangfire>b__9(IServiceProvider serviceProvider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitSingleton(SingletonCallSite singletonCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Hangfire.HangfireApplicationBuilderExtensions.ThrowIfNotConfigured(IApplicationBuilder app)
+   at Hangfire.HangfireApplicationBuilderExtensions.UseHangfireServer(IApplicationBuilder app, BackgroundJobServerOptions options, IEnumerable`1 additionalProcesses, JobStorage storage)
+   at jobs_manager.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env) in D:\hoangle\rebuild_projects\jobs_manager\Startup.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.RunAsync(IWebHost host, CancellationToken token, String shutdownMessage)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.RunAsync(IWebHost host, CancellationToken token)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.Run(IWebHost host)
+   at jobs_manager.Program.Main(String[] args) in D:\hoangle\rebuild_projects\jobs_manager\Program.cs:line 18
+2018-11-17 10:36:21.6455 | [EVENT_ID]  | DEBUG | [LOGGER] jobs_manager.Program | [DATA] init main 
+2018-11-17 10:36:21.8370 | [EVENT_ID]  | INFO | [LOGGER] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | [DATA] User profile is available. Using 'C:\Users\hoanglt\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-11-17 10:36:22.3425 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.PostgreSql.PostgreSqlStorage | [DATA] Start installing Hangfire SQL objects... 
+2018-11-17 10:36:22.4680 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.PostgreSql.PostgreSqlStorage | [DATA] Hangfire SQL objects installed. 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Starting Hangfire Server 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using job storage: 'PostgreSQL Server: Host: 192.168.99.100, DB: hangfire, Schema: hangfire' 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using the following options for SQL Server job storage: 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Queue poll interval: 00:00:15. 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Invisibility timeout: 00:30:00. 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using the following options for Hangfire Server: 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Worker count: 20 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Listening queues: 'default' 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Shutdown timeout: 00:00:15 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Schedule polling interval: 00:00:15 
+2018-11-17 10:36:22.5005 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.BackgroundProcessingServer | [DATA] Background process 'BackgroundProcessingServer' started. 
+2018-11-17 10:36:22.6530 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerHeartbeat | [DATA] Background process 'ServerHeartbeat' started. 
+2018-11-17 10:36:22.6530 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3bd76e48' started. 
+2018-11-17 10:36:22.6530 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerWatchdog | [DATA] Background process 'ServerWatchdog' started. 
+2018-11-17 10:36:22.6530 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Background process 'SQL Records Expiration Manager' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #9163f2b0' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'counter'... 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #55cb9247' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #878cfbc2' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b6bd5a71' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7a01ddba' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7ba35184' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #aed0e68e' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #840a583a' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #03c4a574' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #23984b69' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #d9ea7968' started. 
+2018-11-17 10:36:22.6570 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #956e519e' started. 
+2018-11-17 10:36:22.6730 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #de56ae89' started. 
+2018-11-17 10:36:22.6730 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #31156091' started. 
+2018-11-17 10:36:22.6730 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #5b7f63fa' started. 
+2018-11-17 10:36:22.6730 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #bc24cb22' started. 
+2018-11-17 10:36:22.6730 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3aadb478' started. 
+2018-11-17 10:36:22.6880 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4ce19515' started. 
+2018-11-17 10:36:22.6880 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #de69c310' started. 
+2018-11-17 10:36:22.6880 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.DelayedJobScheduler | [DATA] Background process 'DelayedJobScheduler' started. 
+2018-11-17 10:36:22.6880 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' started. 
+2018-11-17 10:36:22.7505 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'job'... 
+2018-11-17 10:36:22.7505 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'list'... 
+2018-11-17 10:36:22.7505 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'set'... 
+2018-11-17 10:36:22.7505 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'hash'... 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Hangfire Server is stopping... 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.DelayedJobScheduler | [DATA] Background process 'DelayedJobScheduler' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #5b7f63fa' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3aadb478' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #55cb9247' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #aed0e68e' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #31156091' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7ba35184' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7a01ddba' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Background process 'SQL Records Expiration Manager' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerHeartbeat | [DATA] Background process 'ServerHeartbeat' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #840a583a' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #840a583a' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7a01ddba' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #de69c310' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #de69c310' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b6bd5a71' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b6bd5a71' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #d9ea7968' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #956e519e' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #5b7f63fa' stopped. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #956e519e' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4ce19515' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4ce19515' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #bc24cb22' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3aadb478' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #de56ae89' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #878cfbc2' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #9163f2b0' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #878cfbc2' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #23984b69' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3bd76e48' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #aed0e68e' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #31156091' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7ba35184' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #03c4a574' was stopped due to a shutdown request. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #d9ea7968' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerWatchdog | [DATA] Background process 'ServerWatchdog' stopped. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #03c4a574' stopped. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #de56ae89' stopped. 
+2018-11-17 10:36:26.7910 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #55cb9247' stopped. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #9163f2b0' stopped. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #23984b69' stopped. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3bd76e48' stopped. 
+2018-11-17 10:36:26.8050 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #bc24cb22' stopped. 
+2018-11-17 10:36:26.8250 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.BackgroundProcessingServer | [DATA] Background process 'BackgroundProcessingServer' stopped. 
+2018-11-17 10:36:26.8250 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Hangfire Server stopped. 
+2018-11-17 10:51:25.9355 | [EVENT_ID]  | DEBUG | [LOGGER] jobs_manager.Program | [DATA] init main 
+2018-11-17 10:51:26.6555 | [EVENT_ID]  | INFO | [LOGGER] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | [DATA] User profile is available. Using 'C:\Users\hoanglt\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-11-17 10:51:27.3515 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.PostgreSql.PostgreSqlStorage | [DATA] Start installing Hangfire SQL objects... 
+2018-11-17 10:51:27.5445 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.PostgreSql.PostgreSqlStorage | [DATA] Hangfire SQL objects installed. 
+2018-11-17 10:51:27.5590 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Starting Hangfire Server 
+2018-11-17 10:51:27.5590 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using job storage: 'PostgreSQL Server: Host: 192.168.99.100, DB: hangfire, Schema: hangfire' 
+2018-11-17 10:51:27.5590 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using the following options for SQL Server job storage: 
+2018-11-17 10:51:27.5590 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Queue poll interval: 00:00:15. 
+2018-11-17 10:51:27.5590 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Invisibility timeout: 00:30:00. 
+2018-11-17 10:51:27.5590 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Using the following options for Hangfire Server: 
+2018-11-17 10:51:27.5590 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Worker count: 20 
+2018-11-17 10:51:27.5590 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Listening queues: 'default' 
+2018-11-17 10:51:27.5645 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Shutdown timeout: 00:00:15 
+2018-11-17 10:51:27.5645 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA]     Schedule polling interval: 00:00:15 
+2018-11-17 10:51:27.5645 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.BackgroundProcessingServer | [DATA] Background process 'BackgroundProcessingServer' started. 
+2018-11-17 10:51:27.7635 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerHeartbeat | [DATA] Background process 'ServerHeartbeat' started. 
+2018-11-17 10:51:27.7635 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerWatchdog | [DATA] Background process 'ServerWatchdog' started. 
+2018-11-17 10:51:27.7635 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Background process 'SQL Records Expiration Manager' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e21682bd' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #d5119810' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'counter'... 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #906eae15' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #637f563f' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #335e7ecc' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #1b6f73c4' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #18b318ff' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #bb98cc4a' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #fc034494' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7d5c6b8b' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #6d8af299' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #821c05eb' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b7b4af34' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #0db3e820' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3dd88b18' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #722f116b' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e2e194bc' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #c0e61557' started. 
+2018-11-17 10:51:27.7670 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #0891ebfb' started. 
+2018-11-17 10:51:27.7830 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4f2191da' started. 
+2018-11-17 10:51:27.7830 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.DelayedJobScheduler | [DATA] Background process 'DelayedJobScheduler' started. 
+2018-11-17 10:51:27.7830 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' started. 
+2018-11-17 10:51:27.8230 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'job'... 
+2018-11-17 10:51:27.8585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'list'... 
+2018-11-17 10:51:27.8680 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'set'... 
+2018-11-17 10:51:27.8815 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Removing outdated records from table 'hash'... 
+2018-11-17 10:51:27.8815 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.Server.ServerWatchdog | [DATA] 1 servers were removed due to timeout 
+2018-11-17 10:51:45.8015 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 GET http://localhost:9090/hangfire   
+2018-11-17 10:51:45.9750 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 173.597ms 200 text/html 
+2018-11-17 10:51:45.9865 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 GET http://localhost:9090/hangfire/css1621   
+2018-11-17 10:51:45.9865 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 GET http://localhost:9090/hangfire/js1621   
+2018-11-17 10:51:46.0075 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 20.7999ms 200 text/css 
+2018-11-17 10:51:46.0175 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 31.1229ms 200 application/javascript 
+2018-11-17 10:51:46.0175 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 GET http://localhost:9090/hangfire/fonts/glyphicons-halflings-regular/woff2   
+2018-11-17 10:51:46.0175 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 1.1043ms 200 font/woff2 
+2018-11-17 10:51:46.1465 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 GET http://localhost:9090/favicon.ico   
+2018-11-17 10:51:46.3180 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 171.8399ms 404  
+2018-11-17 10:51:48.1410 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 POST http://localhost:9090/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228 
+2018-11-17 10:51:48.1950 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 54.0907ms 200 application/json 
+2018-11-17 10:51:50.1390 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 POST http://localhost:9090/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228 
+2018-11-17 10:51:50.1390 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 2.7048ms 200 application/json 
+2018-11-17 10:51:52.1385 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 POST http://localhost:9090/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228 
+2018-11-17 10:51:52.1385 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 3.1391ms 200 application/json 
+2018-11-17 10:51:54.1385 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 POST http://localhost:9090/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228 
+2018-11-17 10:51:54.1385 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 2.672ms 200 application/json 
+2018-11-17 10:51:56.1385 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 POST http://localhost:9090/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228 
+2018-11-17 10:51:56.1410 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 2.7989ms 200 application/json 
+2018-11-17 10:51:58.1385 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 POST http://localhost:9090/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228 
+2018-11-17 10:51:58.1385 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 2.5687ms 200 application/json 
+2018-11-17 10:52:00.1380 | [EVENT_ID] 1 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request starting HTTP/1.1 POST http://localhost:9090/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228 
+2018-11-17 10:52:00.1380 | [EVENT_ID] 2 | INFO | [LOGGER] Microsoft.AspNetCore.Hosting.Internal.WebHost | [DATA] Request finished in 2.7007ms 200 application/json 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Hangfire Server is stopping... 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.PostgreSql.ExpirationManager | [DATA] Background process 'SQL Records Expiration Manager' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3dd88b18' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerWatchdog | [DATA] Background process 'ServerWatchdog' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #3dd88b18' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #bb98cc4a' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #bb98cc4a' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.ServerHeartbeat | [DATA] Background process 'ServerHeartbeat' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #6d8af299' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #0db3e820' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #0db3e820' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #c0e61557' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #1b6f73c4' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #906eae15' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e21682bd' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7d5c6b8b' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e2e194bc' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #fc034494' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #18b318ff' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #722f116b' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #d5119810' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #722f116b' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #6d8af299' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #c0e61557' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #1b6f73c4' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #906eae15' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e21682bd' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #7d5c6b8b' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #0891ebfb' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4f2191da' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #637f563f' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b7b4af34' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #335e7ecc' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | TRACE | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #821c05eb' was stopped due to a shutdown request. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #e2e194bc' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #fc034494' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #18b318ff' stopped. 
+2018-11-17 10:52:01.9450 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.DelayedJobScheduler | [DATA] Background process 'DelayedJobScheduler' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #d5119810' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.RecurringJobScheduler | [DATA] Background process 'RecurringJobScheduler' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #0891ebfb' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #4f2191da' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #637f563f' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #b7b4af34' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #335e7ecc' stopped. 
+2018-11-17 10:52:01.9585 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.Worker | [DATA] Background process 'Worker #821c05eb' stopped. 
+2018-11-17 10:52:02.0165 | [EVENT_ID]  | DEBUG | [LOGGER] Hangfire.Server.BackgroundProcessingServer | [DATA] Background process 'BackgroundProcessingServer' stopped. 
+2018-11-17 10:52:02.0165 | [EVENT_ID]  | INFO | [LOGGER] Hangfire.BackgroundJobServer | [DATA] Hangfire Server stopped. 

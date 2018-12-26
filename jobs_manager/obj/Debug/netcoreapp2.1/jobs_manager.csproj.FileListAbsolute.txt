@@ -1,0 +1,16 @@
+D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\nlog.config
+D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\jobs_manager.deps.json
+D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\jobs_manager.runtimeconfig.json
+D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\jobs_manager.runtimeconfig.dev.json
+D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\jobs_manager.dll
+D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\jobs_manager.pdb
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.csprojAssemblyReference.cache
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.csproj.CoreCompileInputs.cache
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.RazorAssemblyInfo.cache
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.RazorAssemblyInfo.cs
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.AssemblyInfoInputs.cache
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.AssemblyInfo.cs
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.RazorTargetAssemblyInfo.cache
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.dll
+D:\hoangle\rebuild_projects\jobs_manager\obj\Debug\netcoreapp2.1\jobs_manager.pdb
+D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\jobs_manager.xml

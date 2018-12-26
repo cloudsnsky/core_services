@@ -1,0 +1,39 @@
+2018-11-17 10:28:13.6340 Info Message Template Auto Format enabled
+2018-11-17 10:28:13.6400 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-17 10:28:13.6760 Info Adding target File Target[allfile]
+2018-11-17 10:28:13.6760 Info Adding target File Target[ownFile-web]
+2018-11-17 10:28:13.6760 Info Configured from an XML element in D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\nlog.config...
+2018-11-17 10:28:13.6960 Info Found 45 configuration items
+2018-11-17 10:28:18.4370 Info Logger closing down...
+2018-11-17 10:28:18.4370 Info Closing old configuration.
+2018-11-17 10:28:18.4445 Info Logger has been closed down.
+2018-11-17 10:28:18.4445 Info Shutting down logging...
+2018-11-17 10:28:18.4445 Info Logger has been shut down.
+2018-11-17 10:35:21.2280 Info Message Template Auto Format enabled
+2018-11-17 10:35:21.2340 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-17 10:35:21.2705 Info Adding target File Target[allfile]
+2018-11-17 10:35:21.2705 Info Adding target File Target[ownFile-web]
+2018-11-17 10:35:21.2780 Info Configured from an XML element in D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\nlog.config...
+2018-11-17 10:35:21.2780 Info Found 45 configuration items
+2018-11-17 10:36:21.5580 Info Message Template Auto Format enabled
+2018-11-17 10:36:21.5645 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-17 10:36:21.6000 Info Adding target File Target[allfile]
+2018-11-17 10:36:21.6000 Info Adding target File Target[ownFile-web]
+2018-11-17 10:36:21.6000 Info Configured from an XML element in D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\nlog.config...
+2018-11-17 10:36:21.6200 Info Found 45 configuration items
+2018-11-17 10:36:26.8385 Info Logger closing down...
+2018-11-17 10:36:26.8385 Info Closing old configuration.
+2018-11-17 10:36:26.8385 Info Logger has been closed down.
+2018-11-17 10:36:26.8385 Info Shutting down logging...
+2018-11-17 10:36:26.8385 Info Logger has been shut down.
+2018-11-17 10:51:25.7595 Info Message Template Auto Format enabled
+2018-11-17 10:51:25.7595 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-17 10:51:25.8730 Info Adding target File Target[allfile]
+2018-11-17 10:51:25.8845 Info Adding target File Target[ownFile-web]
+2018-11-17 10:51:25.8845 Info Configured from an XML element in D:\hoangle\rebuild_projects\jobs_manager\bin\Debug\netcoreapp2.1\nlog.config...
+2018-11-17 10:51:25.9105 Info Found 45 configuration items
+2018-11-17 10:52:02.0270 Info Logger closing down...
+2018-11-17 10:52:02.0270 Info Closing old configuration.
+2018-11-17 10:52:02.0270 Info Logger has been closed down.
+2018-11-17 10:52:02.0270 Info Shutting down logging...
+2018-11-17 10:52:02.0270 Info Logger has been shut down.

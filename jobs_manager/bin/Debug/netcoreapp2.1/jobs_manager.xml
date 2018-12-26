@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>jobs_manager</name>
+    </assembly>
+    <members>
+        <member name="T:jobs_manager.Configurations.HangfireAuthorizationFilter">
+            <summary>
+            Implement IDashboardAuthorizationFilter to override some features.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Configurations.HangfireAuthorizationFilter.Authorize(Hangfire.Dashboard.DashboardContext)">
+            <summary>
+            Override Authorize method to allow all users access hangfire dashboard.
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:jobs_manager.Controllers.JobsController">
+            <summary>
+            Jobs controller.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Controllers.JobsController.#ctor(jobs_manager.Services.IJobsService)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="jobsService"></param>
+        </member>
+        <member name="M:jobs_manager.Controllers.JobsController.Get">
+            <summary>
+            Get all jobs. Dummy for now.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:jobs_manager.Controllers.JobsController.Get(System.Int32)">
+            <summary>
+            Get a job by id. Dummy for now.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:jobs_manager.Controllers.JobsController.Post(jobs_manager.Models.Job)">
+            <summary>
+            Create a new job.
+            </summary>
+            <param name="job"></param>
+            <returns></returns>
+        </member>
+        <member name="M:jobs_manager.Controllers.JobsController.Put(System.Int32,System.String)">
+            <summary>
+            Update a job. Dummy for now.
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:jobs_manager.Controllers.JobsController.Delete(System.Int32)">
+            <summary>
+            Delete a job. Dummy for now.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:jobs_manager.Utils.HangfireUtil">
+            <summary>
+            Util for Hangfire.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Utils.HangfireUtil.AddOrUpdateRecurringJob(System.String,System.Linq.Expressions.Expression{System.Func{System.Threading.Tasks.Task}},System.String)">
+            <summary>
+            Add or update recurring job.
+            </summary>
+            <param name="jobId"></param>
+            <param name="methodCall"></param>
+            <param name="cronExpression"></param>
+        </member>
+        <member name="M:jobs_manager.Utils.HangfireUtil.AddFireAndForgetJob(System.Linq.Expressions.Expression{System.Func{System.Threading.Tasks.Task}})">
+            <summary>
+            Add fire-and-forget job.
+            </summary>
+            <param name="methodCall"></param>
+            <returns></returns>
+        </member>
+        <member name="T:jobs_manager.Utils.IHangfireUtil">
+            <summary>
+            Util for Hangfire.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Utils.IHangfireUtil.AddOrUpdateRecurringJob(System.String,System.Linq.Expressions.Expression{System.Func{System.Threading.Tasks.Task}},System.String)">
+            <summary>
+            Add or update recurring job.
+            </summary>
+            <param name="jobId"></param>
+            <param name="methodCall"></param>
+            <param name="cronExpression"></param>
+        </member>
+        <member name="M:jobs_manager.Utils.IHangfireUtil.AddFireAndForgetJob(System.Linq.Expressions.Expression{System.Func{System.Threading.Tasks.Task}})">
+            <summary>
+            Add fire-and-forget job.
+            </summary>
+            <param name="methodCall"></param>
+            <returns></returns>
+        </member>
+        <member name="T:jobs_manager.Utils.HttpUtil">
+            <summary>
+            Util for Http calling.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Utils.HttpUtil.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="httpClientFactory"></param>
+        </member>
+        <member name="M:jobs_manager.Utils.HttpUtil.PostAsync(System.String,System.Object)">
+            <summary>
+            Call a post request.
+            </summary>
+            <param name="uri"></param>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+        <member name="T:jobs_manager.Utils.IHttpUtil">
+            <summary>
+            Util for Http calling.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Utils.IHttpUtil.PostAsync(System.String,System.Object)">
+            <summary>
+            Call a post request.
+            </summary>
+            <param name="uri"></param>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+        <member name="T:jobs_manager.Models.Job">
+            <summary>
+            Job model.
+            </summary>
+        </member>
+        <member name="P:jobs_manager.Models.Job.Name">
+            <summary>
+            Name of Hangfire job.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:jobs_manager.Models.Job.Type">
+            <summary>
+            Type of Hangfire job (Recurring, Fire-and-forget, delayed).
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:jobs_manager.Models.Job.TimeToRun">
+            <summary>
+            Time to trigger the job.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:jobs_manager.Models.Job.Destination">
+            <summary>
+            The api url that will be used to call.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:jobs_manager.Models.Job.Header">
+            <summary>
+            HTTP header.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:jobs_manager.Models.Job.Body">
+            <summary>
+            HTTP body.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:jobs_manager.Models.JobType">
+            <summary>
+            Job Type
+            </summary>
+        </member>
+        <member name="F:jobs_manager.Models.JobType.FireAndForget">
+            <summary>
+            Fire and forget.
+            </summary>
+        </member>
+        <member name="F:jobs_manager.Models.JobType.Delayed">
+            <summary>
+            Delayed.
+            </summary>
+        </member>
+        <member name="F:jobs_manager.Models.JobType.Recurring">
+            <summary>
+            Delayed.
+            </summary>
+        </member>
+        <member name="T:jobs_manager.Program">
+            <summary>
+            The main program class. The very first running code block.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Program.Main(System.String[])">
+            <summary>
+            The main function will be used.
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:jobs_manager.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            Create a web host builder.
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:jobs_manager.Services.IJobsService">
+            <summary>
+            Jobs service.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Services.IJobsService.Create(jobs_manager.Models.Job)">
+            <summary>
+            Create a job.
+            </summary>
+            <param name="job"></param>
+        </member>
+        <member name="T:jobs_manager.Services.JobsService">
+            <summary>
+            Jobs Service.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Services.JobsService.#ctor(jobs_manager.Utils.IHangfireUtil,jobs_manager.Utils.IHttpUtil)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="hangfireUtil"></param>
+            <param name="httpUtil"></param>
+        </member>
+        <member name="M:jobs_manager.Services.JobsService.Create(jobs_manager.Models.Job)">
+            <summary>
+            Create a job.
+            </summary>
+            <param name="job"></param>
+        </member>
+        <member name="T:jobs_manager.Startup">
+            <summary>
+            Startup web app.
+            </summary>
+        </member>
+        <member name="M:jobs_manager.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:jobs_manager.Startup.Configuration">
+            <summary>
+            Get configuration.
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:jobs_manager.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:jobs_manager.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline (middleware).
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:dot_net_core.Configurations.MiddlewareConfiguration">
+            <summary>
+            Configure Middleware. It's separated from Startup -> Configure
+            </summary>
+        </member>
+        <member name="M:dot_net_core.Configurations.MiddlewareConfiguration.Config(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Run configuration.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:dot_net_core.Configurations.ServicesConfiguration">
+            <summary>
+            Configuration Services. It's separated from Startup -> ConfigureServices
+            </summary>
+        </member>
+        <member name="M:dot_net_core.Configurations.ServicesConfiguration.Config(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Run configuration.
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+    </members>
+</doc>
