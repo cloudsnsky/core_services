@@ -1,0 +1,52 @@
+swagger: '2.0'
+
+info:
+    title: 'Backup Executor'
+    description: 'Accesses to databases and runs backup.'
+    version: '1.0'
+basePath: /v1.0
+
+paths:
+    /dbbackup/:
+        post:
+            operationId: apis.dbbackup.class_instance.post
+            parameters:
+                - in: body
+                  name: dbbackup
+                  required: true
+                  schema:
+                      $ref: '#/definitions/DbBackup'
+            responses:
+                '201':
+                    description: 'Trigger a backup job.'
+                    schema:
+                        $ref: '#/definitions/DbBackup'
+
+definitions:
+    DbBackup:
+        type: object
+        required:
+            - connection_string
+            - dbtype
+            - destination
+        properties:
+            id:
+                type: string
+            connection_string:
+                type: string
+            dbtype:
+                type: string
+            dbname:
+                type: string
+            destination:
+                type: object
+                required:
+                    - type
+                    - path
+                properties:
+                    type:
+                        type: string
+                    path:
+                        type: string
+                    remote_address:
+                        type: string
